@@ -9,4 +9,13 @@ public class SamiBenHamed {
         }
         return fact ; 
     }
+
+
+     public static boolean estPair(int nombre) {
+        return nombre % 2 == 0;
+    }
+
+
+
+
 }
