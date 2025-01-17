@@ -10,7 +10,7 @@ public class MainClass {
         // Appeler la méthode convertToUpperCase de StringUtils
         String upperCaseString =Tasnim_chtila .convertToUpperCase(input);
 
-        System.out.println("La chaîne en majuscules  : " + upperCaseString);
+        System.out.println("La chaîne en majuscules est   : " + upperCaseString);
 
         scanner.close();
     }
