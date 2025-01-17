@@ -14,7 +14,6 @@ public class Arij_jebebli {
             return max;
         }
     
-        // Method to concatenate two arrays
         public static int[] concatenateArrays(int[] array1, int[] array2) {
             if (array1 == null || array2 == null) {
                 throw new IllegalArgumentException("Arrays cannot be null.");
