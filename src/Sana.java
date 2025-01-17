@@ -23,7 +23,7 @@ public class Sana {
     }*/
 
     // Méthode pour calculer la moyenne
-    public static double calculerMoyenne(int[] tableau) {
+    /*public static double calculerMoyenne(int[] tableau) {
         if (tableau.length == 0) {
             return 0; // Eviter la division par zéro si le tableau est vide
         }
@@ -31,7 +31,7 @@ public class Sana {
         return (double) somme / tableau.length;
 
         //say hello
-    }
+    }*/
     }
 
 
