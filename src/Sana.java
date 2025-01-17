@@ -2,10 +2,10 @@ public class Sana {
 
     public static void main(String[] args) {
         // Exemple de tableau d'entiers
-        int[] tableau2 = {5, 10, 15, 20, 25};
+        int[] tableau = {5, 10, 15, 20, 25};
 
         // Calculer la somme
-        int somme = calculerSomme(tableau2);
+        int somme = calculerSomme(tableau);
         System.out.println("La somme des éléments du tableau est : " + somme);
 
         // Calculer la moyenne
@@ -31,3 +31,5 @@ public class Sana {
         return (double) somme / tableau.length;
     }
 }
+
+
