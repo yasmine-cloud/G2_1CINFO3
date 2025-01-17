@@ -29,7 +29,10 @@ public class Sana {
         }
         int somme = calculerSomme(tableau);
         return (double) somme / tableau.length;
+
+        //say hello
     }
-}
+    }
+
 
 
