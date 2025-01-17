@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
 public class Tasnim_chtila {
-    public static int calculateSum(int[] numbers) {
-        int sum = 0;
-        for (int number : numbers) {
-            sum += number;
+
+        public static String convertToUpperCase(String input) {
+            if (input == null) {
+                return ""; // Retourner une chaîne vide si l'entrée est null
+            }
+            return input.toUpperCase();
         }
-        return sum;
     }
-}
+
