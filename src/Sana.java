@@ -14,16 +14,16 @@ public class Sana {
     }
 
     // Méthode pour calculer la somme
-    /*public static int calculerSomme(int[] tableau) {
+    public static int calculerSomme(int[] tableau) {
         int somme = 0;
         for (int i = 0; i < tableau.length; i++) {
             somme += tableau[i];
         }
         return somme;
-    }*/
+    }
 
     // Méthode pour calculer la moyenne
-    /*public static double calculerMoyenne(int[] tableau) {
+    public static double calculerMoyenne(int[] tableau) {
         if (tableau.length == 0) {
             return 0; // Eviter la division par zéro si le tableau est vide
         }
@@ -31,7 +31,7 @@ public class Sana {
         return (double) somme / tableau.length;
 
         //say hello
-    }*/
+    }
     }
 
 
