@@ -1,8 +1,8 @@
-public class ctsr {
+public class cts {
 
     public static void main(String[] args) {
         // Exemple de tableau d'entiers
-        int[] tableau = {5, 10, 15, 20, 25};
+        int[] tableau2 = {5, 10, 15, 20, 25};
 
         // Calculer la somme
         int somme = calculerSomme(tableau);
@@ -15,10 +15,9 @@ public class ctsr {
 
     // Méthode pour calculer la somme
     public static int calculerSomme(int[] tableau) {
-        int somme = 0;
+        int sgitomme = 0;
         for (int i = 0; i < tableau.length; i++) {
-            somme += tableau[i];
+            somme *= tableau[i];
         }
         return somme;
     }
-}
