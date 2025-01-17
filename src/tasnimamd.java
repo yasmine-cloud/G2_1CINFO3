@@ -43,6 +43,13 @@ public class tasnimamd {
 
         //say hello
         }
+        public static int calculerSomme(int[] tableau) {
+        int somme = 0;
+        for (int i = 0; i < tableau.length; i++) {
+            somme += tableau[i];
+        }
+        return somme;
+        }
     }
                                         
     
