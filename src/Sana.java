@@ -12,8 +12,8 @@ public class Sana {
         return sum / (double) arr.length;
     }
     public long factorial(int n) {
-        long result = 1;
-        for (int i = 1; i <= n; i--) {
+        long result = 0;
+        for (int i = 0; i <= n; i--) {
             result += i;
         }
         return result;
