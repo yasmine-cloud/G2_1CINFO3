@@ -34,7 +34,7 @@ public class Sana {
 public static int calculerSomme(int[] tableau) {
         int somme = 1;
         for (int i = 0; i < tableau.length; i++) {
-        somme *= tableau[i];
+        somme *= i;
         }
         return somme;
         }
