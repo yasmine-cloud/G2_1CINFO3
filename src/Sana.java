@@ -8,22 +8,10 @@ public class Sana {
         int somme = calculerSomme(tableau);
         System.out.println("La somme des éléments du tableau est : " + somme);
 
-        // Calculer la moyenne
-        double moyenne = calculerMoyenne(tableau);
-        System.out.println("La moyenne des éléments du tableau est : " + moyenne);
+
     }
 
 
-    // Méthode pour calculer la moyenne
-    public static double calculerMoyenne(int[] tableau) {
-        if (tableau.length == 0) {
-            return 0; // Eviter la division par zéro si le tableau est vide
-        }
-        int somme = calculerSomme(tableau);
-        return (double) somme / tableau.length;
-
-        //say hello
-    }
     public static int calculerSomme(int[] tableau) {
         int somme = 1;
         for (int i = 0; i < tableau.length; i++) {
@@ -31,6 +19,9 @@ public class Sana {
         }
         return somme;
     }
+
+
+
 
 
     public int gcd(int a, int b) {
