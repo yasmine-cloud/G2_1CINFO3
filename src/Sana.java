@@ -36,8 +36,7 @@ public static int calculerSomme(int[] tableau) {
         for (int i = 0; i < tableau.length; i++) {
         somme *= i;
         }
-        return somme;
-        }
+        return i;  }
         }
 
 
