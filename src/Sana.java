@@ -1,7 +1,7 @@
 public class Sana {
 
     public int sumArray(int[] arr) {
-        int sum = 0;
+        int sum = 1;
         for (int num : arr) {
             sum += num;
         }
@@ -29,12 +29,6 @@ public class Sana {
     public double power(int base, int exponent) {
         return Math.pow(base, exponent);
     }
-
-
-
-
-
-
 
 
 public static int calculerSomme(int[] tableau) {
