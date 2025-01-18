@@ -34,6 +34,7 @@ public class tasnimamd {
         public double power(int base, int exponent) {
             return Math.pow(base, exponent);
         }
+
        public static int calculerSomme(int[] tableau) {
         int somme = 1;
         for (int i = 0; i < tableau.length; i++) {
@@ -57,5 +58,6 @@ public class tasnimamd {
     }
 }
 
+
     
-}
+
