@@ -7,6 +7,8 @@ public class Tasnim_chtila {
                 return ""; // Retourner une chaîne vide si l'entrée est null
 
             }
+            input = input.trim();
+
             return input.toUpperCase();
         }
     }
